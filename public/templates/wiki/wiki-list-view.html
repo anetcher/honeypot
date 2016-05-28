@@ -1,0 +1,8 @@
+<ul class="list-group">
+  <li class="list-group-item" ng-repeat="article in wikiCtrl.articles">
+    <h3 class="list-group-item-heading">{{article.title}}</h3>
+    <p class="list-group-item-text">{{article.content}}</p>
+  </li>
+</ul>
+
+<button ng-click="wikiCtrl.refresh()">refresh</button>

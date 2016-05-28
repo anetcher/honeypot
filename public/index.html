@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="honeypot">
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="angular/angular.min.js"></script>
+  <script type="text/javascript" src="angular/controllers/wiki-controller.js"></script>
+  <script type="text/javascript" src="angular/directives/wiki-derective.js"></script>
+  <script type="text/javascript" src="angular/app_client.js"></script>
+
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <title>Hello Static</title>
+</head>
+<body>
+
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <wiki ng-controller="WikiController as wikiCtrl"></wiki>
+    </div>
+  </div>
+
+</body>
+</html>
